@@ -91,3 +91,7 @@ asks for confirmation, keeps a copy of what was on the phone, and offers Undo.
 - **Font.** Text uses Google Sans where the device has it (Pixels) and the system font elsewhere.
   Bundling a font file would make it identical on every phone.
 - **Compose version.** Pinned to BOM `2026.09.00` because newer ones need SDK platform 37.1.
+
+## Licence
+
+MIT. See [LICENSE](LICENSE).
