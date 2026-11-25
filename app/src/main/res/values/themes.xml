@@ -1,0 +1,14 @@
+<resources>
+    <!-- The UI is all Compose; this only styles the window before the first frame. -->
+    <style name="Theme.Recall" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">@color/window_background</item>
+        <item name="android:colorAccent">@color/brand</item>
+    </style>
+
+    <style name="Theme.Recall.Translucent">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowAnimationStyle">@null</item>
+    </style>
+</resources>

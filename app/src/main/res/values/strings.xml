@@ -1,0 +1,17 @@
+<resources>
+    <!-- Placeholder name; branding is still to be decided. -->
+    <string name="app_name">Recall</string>
+    <string name="capture_label">Remember in Recall</string>
+    <string name="widget_label">Recall quick capture</string>
+    <string name="widget_description">Capture a thought in one tap and see what Forgotten Radar has found.</string>
+    <string name="capture_widget_label">Recall capture button</string>
+    <string name="capture_widget_description">An icon-sized button that opens quick capture.</string>
+    <string name="widget_preview_hint">Remember something…</string>
+    <string name="widget_preview_heading">Forgotten Radar</string>
+    <string name="widget_preview_item_1">Renew driving licence</string>
+    <string name="widget_preview_item_2">Book vehicle service</string>
+    <string name="shortcut_capture_short">Capture</string>
+    <string name="shortcut_capture_long">Remember something</string>
+    <string name="shortcut_voice_short">Voice</string>
+    <string name="shortcut_voice_long">Capture by voice</string>
+</resources>

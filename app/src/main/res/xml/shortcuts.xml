@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/ic_shortcut_capture"
+        android:shortcutId="capture"
+        android:shortcutLongLabel="@string/shortcut_capture_long"
+        android:shortcutShortLabel="@string/shortcut_capture_short">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.recall.app.CaptureActivity"
+            android:targetPackage="com.recall.app" />
+    </shortcut>
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/ic_shortcut_voice"
+        android:shortcutId="voice"
+        android:shortcutLongLabel="@string/shortcut_voice_long"
+        android:shortcutShortLabel="@string/shortcut_voice_short">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.recall.app.CaptureActivity"
+            android:targetPackage="com.recall.app">
+            <extra android:name="voice" android:value="true" />
+        </intent>
+    </shortcut>
+</shortcuts>

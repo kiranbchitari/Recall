@@ -1,0 +1,23 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="64dp" android:height="64dp" android:viewportWidth="64" android:viewportHeight="64">
+    <!-- The whole capture-button widget in one drawable: disc, soft highlight, rim, plus and spark. -->
+    <path android:pathData="M32,2a30,30 0,1 1,0 60a30,30 0,1 1,0 -60z">
+        <aapt:attr name="android:fillColor">
+            <gradient android:type="linear" android:startX="8" android:startY="6" android:endX="56" android:endY="58">
+                <item android:offset="0" android:color="#A08BFC" />
+                <item android:offset="1" android:color="#5132CC" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <path android:pathData="M32,2a30,30 0,1 1,0 60a30,30 0,1 1,0 -60z">
+        <aapt:attr name="android:fillColor">
+            <gradient android:type="radial" android:centerX="20" android:centerY="15" android:gradientRadius="34">
+                <item android:offset="0" android:color="#4DFFFFFF" />
+                <item android:offset="1" android:color="#00FFFFFF" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <path android:pathData="M32,2.8a29.2,29.2 0,1 1,0 58.4a29.2,29.2 0,1 1,0 -58.4z" android:strokeColor="#FFFFFF" android:strokeAlpha="0.28" android:strokeWidth="1.2" />
+    <path android:pathData="M32,21.5 L32,42.5 M21.5,32 L42.5,32" android:strokeColor="#FFFFFF" android:strokeWidth="5" android:strokeLineCap="round" android:strokeLineJoin="round" />
+    <path android:pathData="M46.5,13.5 C47,16.6 48.4,18 51.5,18.5 C48.4,19 47,20.4 46.5,23.5 C46,20.4 44.6,19 41.5,18.5 C44.6,18 46,16.6 46.5,13.5 Z" android:fillColor="#FFE2B8" />
+</vector>
